@@ -8,3 +8,18 @@ user_0 = {
 
 for key, value in user_0.items():
     print(f'\n{key} : {value}');
+print('\n')
+
+
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    'sheldon': 'fortran',
+
+}
+
+for name, language in favorite_languages.items():
+    print(f'{name.title()}\'s favorite language is {language.title()}.' );
+print('\n')
