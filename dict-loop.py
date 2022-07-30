@@ -26,3 +26,11 @@ print('\n')
 
 for name in favorite_languages.keys():
     print(f'name: {name.title()}')
+print('\n')
+
+# now I'm adding a loop which doesn't use any method;
+# therefore by-default it loops through keys:
+
+for k in favorite_languages:
+    print(f'{k}: {favorite_languages[k]}');
+print('\n');
